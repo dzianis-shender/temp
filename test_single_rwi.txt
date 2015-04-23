@@ -1,0 +1,307 @@
+From:	noreply@email.wolterskluwer.com
+Sent:	Wednesday, February 27, 2013 11:28 AM
+To:	Kulchitskee, Vyacheslav; Luchanok, Vitali; Soltysov, Aleksandr; Balasundaram, Sivakumar; Behr, Kevin; Chandrasekar, Suresh; Ermolov, Sergey; Fryant, Rick; Killilea, Kevin; Lindsey, Chuck; Repole, Peter; Sreeram, Ravi; Yaremka, Maksim; WKG-ATLAS-Error Report Reviewers
+Subject:	Atlas - RWI - Error Report - Kluwer PRD - atlas2b - Anonymous User
+
++++++ User details +++++
+
+Creation time: 2/27/13 5:27 PM
+Login (pk): TempUser721102 (721102) 
+Authentication ticket: 56F70C3C-FDAA-4176-BD79-BD7E25D08470
+
+Versions:
+RE: GARE-R4-00-02-06-0004 
+Client: RWI - 04.00.02.07.0001 - Build version: local [Product Segment - wknl-04.00.02.07.0002 - Build version: local] 
+Content Formatting: WKNL-R4.00.02.07.0005 - Build version:null 
+
++++++ Exception details +++++
+
+code:
+Message:
+Diagnostic message:
+
+Exception stack trace:
+
+
+
++++++ Client context info +++++
+
+Clientside-probleem.
+
+type: java.lang.NumberFormatException 
+
+details: Permutation name: B651CE1E671AAC0EE743176F8DED0708 : java.lang.NumberFormatException:
+For input string: "goToPublication.textLength.limit"
+    at Unknown.yv(Unknown Source)
+    at Unknown.Dv(Unknown Source)
+    at Unknown.Jci(Unknown Source)
+    at Unknown.Kdi(Unknown Source)
+    at Unknown.Dbi(Unknown Source)
+    at Unknown.TYc(Unknown Source)
+    at Unknown.KCh(Unknown Source)
+
+.
+
+Server error occurence time [MM-dd-yyyy KK:mm:ss:S a Z] (for client side errors: the report creation time): 02-27-2013 05:27:40:842 PM +0100
+
+Server side debug:
+
+Request headers (not all headers are listed):
+[name = Accept-Language, value = nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4]
+[name = content-type, value = text/x-gwt-rpc; charset=UTF-8]
+[name = accept, value = */*]
+[name = Accept-Charset, value = ISO-8859-1,utf-8;q=0.7,*;q=0.3]
+[name = referer, value = https://navigator.kluwer.nl/scion/secure/index.jsp?cpid=WKNL-LTR-Navigator]
+[name = user-agent, value = Mozilla/5.0 (Windows NT 6.0; chromeframe/25.0.1364.97) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.97 Safari/537.22]
+[name = host, value = navigator.kluwer.nl]
+[name = content-length, value = 1277]
+[name = Cache-Control, value = no-cache]
+[name = TE, value = chunked]
+[name = connection, value = keep-alive]
+[name = UniqueID, value = QMQcSQoKFIUAAD9HpyMAAAAd]
+
+Request params:
+
+
+Request attributes (not all attributes are listed):
+[name = org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE, value = WebApplicationContext for namespace 'GWTSpring-servlet': startup date [Mon Feb 18 07:18:16 CET 2013]; parent: Root WebApplicationContext]
+[name = org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER, value = org.springframework.web.servlet.theme.FixedThemeResolver@5347a9ff]
+[name = org.springframework.web.servlet.DispatcherServlet.CONTEXT, value = WebApplicationContext for namespace 'GWTSpring-servlet': startup date [Mon Feb 18 07:18:16 CET 2013]; parent: Root WebApplicationContext]
+[name = __acegi_session_integration_filter_applied, value = true]
+[name = org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping, value = secure]
+[name = class com.wolterskluwer.atlas.mantle.context.udr.UDRAppContext, value = com.wolterskluwer.atlas.mantle.context.udr.UDRAppContext@72a349af]
+[name = javax.servlet.jsp.jstl.fmt.locale.request, value = nl]
+[name = org.springframework.web.servlet.HandlerMapping.bestMatchingPattern, value = /**/errorReporterService.rpc]
+[name = org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER, value = org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@5e9cf10]
+
+
+Session attributes (not all attributes are listed):
+[name = rwi.SkinProperties.SKIN_ATTR_NAME, value = kluwer]
+[name = branding.Product.ProductName, value = Kluwer Navigator]
+[name = LOGIN_USER_AGENT, value = com.wolterskluwer.atlas.rwi.gwt.useragentauth.server.services.GwtUserAgent@3e3abaf5]
+[name = rwi.SkinProperties.SKIN_NOT_ENTERED, value = true]
+[name = ACEGI_SAVED_REQUEST_KEY, value = SavedRequest[https://navigator.kluwer.nl/scion/secure/index.jsp]]
+[name = uilanguage, value = nl]
+[name = javax.servlet.jsp.jstl.fmt.request.charset, value = UTF-8]
+[name = $SESSION_MUTEX$, value = com.wolterskluwer.atlas.j5val.conversation.context.servlet.ContextListener$Mutex@1c84abe]
+
+
+Request cookies (not all cookies are listed):
+[name = RWICookieCheck, value = Wed Feb 27 17:27:04 CET 2013]
+[name = JSESSIONID, value = F5E4C63C51F76133ECA4DB4118C18082.atlas2b]
+[name = AtlasTicketSession, value = 56F70C3C-FDAA-4176-BD79-BD7E25D08470]
+[name = cpids-for-aic_/scion, value = ]
+[name = AtlasTicket, value = 56F70C3C-FDAA-4176-BD79-BD7E25D08470]
+[name = UserSkinCookie_WKNL-LTR-Navigator, value = kluwer]
+[name = UserName, value = TempUser721102]
+[name = productId, value = WKNL-LTR-Navigator]
+
+
+Request locales:
+[nl]
+[nl]
+[en]
+[en]
+
+
+Request path info:
+Context path: /scion
+Path info: null
+Request URI: /scion/secure/errorReporterService.rpc
+
+Remote address: 137.120.4.10
+Requested session id: F5E4C63C51F76133ECA4DB4118C18082.atlas2b
+
+
+Additional Client Side Info:
+
+Local Storage Attributes: 
+
+
+Report initiation source: user
+
+Window location hash: 
+History State: 
+[{"key":"DhtmlHistory_pageLoaded", "value":"true"},{"key":"page[0]", "value":"["{"autoTab":false, "activeTabIndex":"-1", "tabStates":[]}"]"}]
+
+ClientSideLogger [error] logs:
+
+
++++++ User subscription doc assemblies +++++
+
+WKNL_LTR_06107379
+WKNL_LTR_10000000
+WKNL_LTR_10000001
+WKNL_LTR_10013069
+WKNL_LTR_10013153
+WKNL_LTR_10013825
+WKNL_LTR_10025137
+WKNL_LTR_10025139
+WKNL_LTR_10025143
+WKNL_LTR_10028189
+WKNL_LTR_10042748
+WKNL_LTR_10046479
+WKNL_LTR_10047736
+WKNL_LTR_10048150
+WKNL_LTR_10048201
+WKNL_LTR_10048558
+WKNL_LTR_10049151
+WKNL_LTR_10056539
+WKNL_LTR_10061267
+WKNL_LTR_10069405
+WKNL_LTR_10069415
+WKNL_LTR_10069499
+WKNL_LTR_10069577
+WKNL_LTR_10069609
+WKNL_LTR_10069615
+WKNL_LTR_10069617
+WKNL_LTR_10069741
+WKNL_LTR_10069745
+WKNL_LTR_10069782
+WKNL_LTR_10069800
+WKNL_LTR_10069828
+WKNL_LTR_10069888
+WKNL_LTR_10069892
+WKNL_LTR_10081519
+WKNL_LTR_10081979
+WKNL_LTR_10087982
+WKNL_LTR_10087987
+WKNL_LTR_10088020
+WKNL_LTR_10088097
+WKNL_LTR_10088443
+WKNL_LTR_10088539
+WKNL_LTR_10089090
+WKNL_LTR_10089113
+WKNL_LTR_10089472
+WKNL_LTR_10091034
+WKNL_LTR_10091225
+WKNL_LTR_10091513
+WKNL_LTR_10091515
+WKNL_LTR_10091520
+WKNL_LTR_10091529
+WKNL_LTR_10091535
+WKNL_LTR_10091539
+WKNL_LTR_10091546
+WKNL_LTR_10091548
+WKNL_LTR_10091556
+WKNL_LTR_10091558
+WKNL_LTR_10091564
+WKNL_LTR_10091570
+WKNL_LTR_10091573
+WKNL_LTR_10091580
+WKNL_LTR_10091586
+WKNL_LTR_10091590
+WKNL_LTR_10091611
+WKNL_LTR_10092046
+WKNL_LTR_10092053
+WKNL_LTR_10102662
+WKNL_LTR_10102880
+WKNL_LTR_10102885
+WKNL_LTR_10104935
+WKNL_LTR_10105039
+WKNL_LTR_10105049
+WKNL_LTR_10105419
+WKNL_LTR_10105675
+WKNL_LTR_10105856
+WKNL_LTR_10107187
+WKNL_LTR_10107192
+WKNL_LTR_10108204
+WKNL_LTR_10108361
+WKNL_LTR_10114675
+WKNL_LTR_10123704
+WKNL_LTR_10123968
+WKNL_LTR_10125422
+WKNL_LTR_10125435
+WKNL_LTR_10125638
+WKNL_LTR_10125864
+WKNL_LTR_10126570
+WKNL_LTR_10126574
+WKNL_LTR_10126578
+WKNL_LTR_10126582
+WKNL_LTR_10126586
+WKNL_LTR_10126590
+WKNL_LTR_10126594
+WKNL_LTR_10126598
+WKNL_LTR_10126604
+WKNL_LTR_10126632
+WKNL_LTR_10126652
+WKNL_LTR_10126669
+WKNL_LTR_10126673
+WKNL_LTR_10126677
+WKNL_LTR_10126685
+WKNL_LTR_10126689
+WKNL_LTR_10126697
+WKNL_LTR_10126705
+WKNL_LTR_10127110
+WKNL_LTR_10128168
+WKNL_LTR_10129065
+WKNL_LTR_10129072
+WKNL_LTR_10139216
+WKNL_LTR_10141409
+WKNL_LTR_10141415
+WKNL_LTR_10141421
+WKNL_LTR_10142554
+WKNL_LTR_10152809
+WKNL_LTR_10158182
+WKNL_LTR_10159667
+WKNL_LTR_10174214
+WKNL_LTR_10175460
+WKNL_LTR_10177251
+WKNL_LTR_10178989
+WKNL_LTR_10185786
+WKNL_LTR_10186197
+WKNL_LTR_10186203
+WKNL_LTR_10186225
+WKNL_LTR_10186229
+WKNL_LTR_10186851
+WKNL_LTR_10289108
+WKNL_LTR_10291416
+WKNL_LTR_10291424
+WKNL_LTR_10291527
+WKNL_LTR_10293896
+WKNL_LTR_10294153
+WKNL_LTR_10297049
+WKNL_LTR_10297488
+WKNL_LTR_10297542
+WKNL_LTR_10298048
+WKNL_LTR_196671774
+WKNL_LTR_96046030
+WKNL_LTR_96058371
+WKNL_LTR_96062606
+WKNL_LTR_96062607
+WKNL_LTR_96062608
+WKNL_LTR_96062609
+WKNL_LTR_96062610
+WKNL_LTR_96062611
+WKNL_LTR_96062612
+WKNL_LTR_96062613
+WKNL_LTR_96062614
+WKNL_LTR_96062615
+WKNL_LTR_96062616
+WKNL_LTR_96062617
+WKNL_LTR_96062619
+WKNL_LTR_96062620
+WKNL_LTR_96062697
+WKNL_LTR_96062699
+WKNL_LTR_96062700
+WKNL_LTR_96062701
+WKNL_LTR_96062702
+WKNL_LTR_96062703
+WKNL_LTR_96062704
+WKNL_LTR_96062705
+WKNL_LTR_96062706
+WKNL_LTR_96062708
+WKNL_LTR_96062709
+WKNL_LTR_96064731
+WKNL_LTR_96068657
+WKNL_LTR_97049146
+WKNL_LTR_97049147
+WKNL_LTR_97049357
+WKNL_LTR_97052561
+WKNL_LTR_97062695
+WKNL_LTR_97064746
+WKNL_LTR_97067212
+WKNL_LTR_97069867
+WKNL_LTR_97070347
+WKNL_LTR_97070670
+WKNL_LTR_97070692
